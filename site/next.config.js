@@ -5,7 +5,7 @@ const nextConfig = {
     name: 'dhnhome2.online',
     description: 'The private kasm repository for dhnhome2.online.',
     icon: '/img/logo.svg',
-    listUrl: 'https://github.com/ddiebold91/kasm-registry/',
+    listUrl: 'https://ddiebold91.github.io/kasm-registry/',
     contactUrl: 'https://github.com/ddiebold91/kasm-registry/issues',
   },
   reactStrictMode: true,
