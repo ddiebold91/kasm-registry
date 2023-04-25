@@ -2,11 +2,11 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    name: 'dhnhome2.online',
+    description: 'The private kasm repository for dhnhome2.online.',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    listUrl: 'https://github.com/ddiebold91/kasm-registry/',
+    contactUrl: 'https://github.com/ddiebold91/kasm-registry/issues',
   },
   reactStrictMode: true,
   swcMinify: true,
