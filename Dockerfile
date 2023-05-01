@@ -10,9 +10,9 @@ WORKDIR $HOME
 
 
 RUN wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.3_all.deb \
-&& apt-get install -y protonvpn-stable-release_1.0.3_all.deb \
+&& apt-get install -y ./protonvpn-stable-release_1.0.3_all.deb \
 && apt-get update \
-&& apt-get install protonvpn \
+&& apt-get install protonvpn -y \
 && cp /usr/share/applications/protonvpn.desktop $HOME/Desktop/ \
 && chown 1000:1000 $HOME/Desktop/protonvpn.desktop
 
