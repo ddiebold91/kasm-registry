@@ -7,7 +7,7 @@
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "docker_registry": "https://hub.docker.com/repository/docker/ddiebold/kasmcustomimage",
+  "docker_registry": "https://hub.docker.com/",
   "categories": [
     "Desktop"
   ],
