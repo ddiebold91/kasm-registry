@@ -1,0 +1,20 @@
+{
+  "friendly_name": "Ubuntu Focal Desktop custom",
+  "image_src": "blob:https://ddiebold91.github.io/70e78263-e7dc-4d87-a0e3-277d74c871d7",
+  "description": "A custom Focal Desktop (development)",
+  "name": "ddiebold/kasmcustomimage:developmment-1",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
+  "categories": [
+    "Desktop"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "architecture": [
+    "amd64"
+  ]
+}
