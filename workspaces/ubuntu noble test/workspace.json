@@ -1,6 +1,6 @@
 {
   "friendly_name": "ubuntu noble test",
-  "image_src": "blob:https://ddiebold91.github.io/4c0d156e-ce4b-4772-968c-7d571ef5d963",
+  "image_src": "ubuntu_noble.png",
   "description": "base ubuntu noble image with \" RUN touch $HOME/Desktop/hello.txt\"",
   "cores": 2,
   "memory": 2768,
