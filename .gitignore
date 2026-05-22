@@ -51,3 +51,8 @@ test-timings.json
 
 # User-specific files
 _templates
+
+# Copilot/customization files (exclude from registry processing)
+.github/
+.agents/
+.claude/
