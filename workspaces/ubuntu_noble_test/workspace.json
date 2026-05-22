@@ -1,0 +1,37 @@
+{
+  "friendly_name": "Ubuntu Noble",
+  "image_src": "ubuntu_noble.png",
+  "description": "Ubuntu 24.04 LTS (Noble Numbat) custom desktop workspace with development tools.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "categories": [
+    "Desktop"
+  ],
+  "architecture": [
+    "amd64"
+  ],
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "ddiebold/customubuntunoble:05-22-2026",
+      "uncompressed_size_mb": 1270,
+      "available_tags": [
+        "05-22-2026"
+      ]
+    }
+  ]
+}
