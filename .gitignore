@@ -48,3 +48,6 @@ test-timings.json
 # Cache
 *.tsbuildinfo
 .swc/
+
+# User-specific files
+_templates
