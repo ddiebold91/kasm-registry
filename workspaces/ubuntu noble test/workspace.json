@@ -13,8 +13,5 @@
   "require_gpu": false,
   "enabled": true,
   "image_type": "Container",
-  "name": "https://hub.docker.com/repository/docker/ddiebold/customubuntunoble/tags/05-22-2026/sha256-bf0839e1326796609771aab4f4bac057cffcc600e761cf492e549b45d6a9f486",
-  "architecture": [
-    "amd64"
-  ]
+  "name": "ddiebold/customubuntunoble/tags/05-22-2026"
 }
