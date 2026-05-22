@@ -1,0 +1,20 @@
+{
+  "friendly_name": "ubuntu noble test",
+  "image_src": "blob:https://ddiebold91.github.io/4c0d156e-ce4b-4772-968c-7d571ef5d963",
+  "description": "base ubuntu noble image with \" RUN touch $HOME/Desktop/hello.txt\"",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
+  "categories": [
+    "Desktop"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "name": "https://hub.docker.com/repository/docker/ddiebold/customubuntunoble/tags/05-22-2026/sha256-bf0839e1326796609771aab4f4bac057cffcc600e761cf492e549b45d6a9f486",
+  "architecture": [
+    "amd64"
+  ]
+}

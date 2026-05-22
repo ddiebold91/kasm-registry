@@ -64,6 +64,12 @@ glob("**/workspace.json", async function (err, files) {
 
 	}
 
+	const channelList = [...channels];
+	const rollingWeeklyChannel = channelList.find((channel) => /rolling-weekly$/.test(channel));
+	const stableVersionChannel = channelList.find((channel) => /^\d+\.\d+\.\d+$/.test(channel));
+	const developChannel = channelList.find((channel) => channel === "develop");
+	const defaultChannel = rollingWeeklyChannel || stableVersionChannel || developChannel || null;
+
 	let json = {
 		name: nextConfig.env.name || 'Unknown store',
 		workspacecount: workspacetotal,
@@ -73,8 +79,8 @@ glob("**/workspace.json", async function (err, files) {
 		contact_url: nextConfig.env.contactUrl || null,
 		modified: Date.now(),
 		workspaces: workspaces,
-		channels: [...channels],
-		default_channel: 'develop'
+		channels: channelList,
+		default_channel: defaultChannel
 	};
 
 	if (channels.size === 0) {
