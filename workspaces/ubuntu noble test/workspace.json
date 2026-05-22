@@ -13,5 +13,5 @@
   "require_gpu": false,
   "enabled": true,
   "image_type": "Container",
-  "name": "ddiebold/customubuntunoble/tags/05-22-2026"
+  "name": "ddiebold/customubuntunoble:05-22-2026"
 }
