@@ -1,5 +1,5 @@
 {
-  "friendly_name": "Ubuntu Noble",
+  "friendly_name": "Ubuntu Noble with Software",
   "image_src": "ubuntu_noble.jpg",
   "description": "Ubuntu 24.04 LTS (Noble Numbat) custom desktop workspace with personal tools.",
   "docker_registry": "https://index.docker.io/v1/",
@@ -27,8 +27,8 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "ddiebold/customubuntunoble:05-23-2026",
-      "uncompressed_size_mb": 1270,
+      "image": "ddiebold/customubuntunoble:05-25-2026",
+      "uncompressed_size_mb": 2676,
       "available_tags": [
         "05-23-2026"
       ]
